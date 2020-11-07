@@ -1,5 +1,30 @@
 .container-header{
     width: 100%;
-    height: 400px;
+    height: 100px;
     background-color: aqua;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: burlywood;
+}
+
+.container-father-publish{
+    display: flex;
+    align-items: center;
+    margin: 3rem;
+}
+
+.container-father-publish article{
+    margin: auto 50px;
+}
+
+.container-father-publish h3{
+    font-size: 30px;
+    color: #025157;
+}
+
+.container-father-publish form{
+    display: flex;
+    align-items: center;
 }
